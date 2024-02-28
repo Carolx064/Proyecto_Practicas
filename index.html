@@ -3,30 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Notias informática</title>
+  <title>TecnoToday</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="container">
+        <h1> Noticias</h1>
+        <header> 
+            <nav>
+               <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Categorias</a></li>
+                    <li><a href="#">Log in</a></li>
+               </ul>
+            </nav>
+            <div class="busqueda">
+                <input type="text" placeholder="¿Que desea buscar?" id="busqueda">
+                <button onclick="BuscarTema()">buscar</button>
+            </div>
+        </header>
+        <div class="container-noticias">
 
-  <header>
-    <h1>TecnoToday</h1>
-  </header>
+        </div>
 
-  <nav>
-    <ul>
-      <li><a href="#">Inicio</a></li>
-      <li><a href="#">Acerca de</a></li>
-      <li><a href="#">Contacto</a></li>
-    </ul>
-  </nav>
-
-  <main>
-    <section>
-      <h2>Contenido Principal</h2>
-      <p>Bienvenido a nuestra aplicación web.</p>
-    </section>
-  </main>
-
+    </div>
+    <script src="app.js"></script>
   <footer>
     <p>&copy; 2024 nuestra Aplicación Web</p>
   </footer>
